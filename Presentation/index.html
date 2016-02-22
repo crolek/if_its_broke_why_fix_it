@@ -1,0 +1,190 @@
+<!doctype html>
+<html lang="en">
+
+	<head>
+		<meta charset="utf-8">
+
+		<title>If it’s broke why fix it!?!</title>
+
+		<meta name="description" content="A framework for easily creating beautiful presentations using HTML">
+		<meta name="author" content="Hakim El Hattab">
+
+		<meta name="apple-mobile-web-app-capable" content="yes">
+		<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
+
+		<link rel="stylesheet" href="css/reveal.css">
+		<link rel="stylesheet" href="css/theme/black.css" id="theme">
+
+		<!-- Code syntax highlighting -->
+		<link rel="stylesheet" href="lib/css/zenburn.css">
+
+		<!-- Printing and PDF exports -->
+		<script>
+			var link = document.createElement( 'link' );
+			link.rel = 'stylesheet';
+			link.type = 'text/css';
+			link.href = window.location.search.match( /print-pdf/gi ) ? 'css/print/pdf.css' : 'css/print/paper.css';
+			document.getElementsByTagName( 'head' )[0].appendChild( link );
+		</script>
+
+		<!--[if lt IE 9]>
+		<script src="lib/js/html5shiv.js"></script>
+		<![endif]-->
+		<style>
+			strong {
+				color: #E6DB74;
+			}
+
+			.alignleft: {
+				text-align: left !important;
+			}
+
+			.reveal .stewie-container {
+				position: absolute;
+				font-size: 0.5em;
+			}
+
+			.stewie-container-bottom {
+
+			}
+
+			.stewie-container-top {
+
+			}
+
+			.stewie-img {
+				width: 267px;
+				height: 150px;
+				background: none !important;
+				border: none !important;
+				box-shadow: none !important;
+				margin: none !important;
+				float: left;
+			}
+
+			.stewie-message {
+				position: relative;
+				text-align: left;
+				float: left;
+				font-size: .75em !important;
+			}
+
+			.stewie-message-bottom {
+
+			}
+
+			.stewie-message-top {
+
+			}
+
+			.clear-left {
+				clear: left;
+			}
+		</style>
+	</head>
+
+	<body>
+
+		<div class="reveal">
+
+			<!-- Any section element inside of this container is displayed as a slide -->
+			<div class="slides">
+				<section>
+					<h2>If it’s broke why fix it!?!</h2>
+					<h3></h3>
+				</section>
+				<section>
+					<h2>Chuck Rolek</h2>
+					</br>
+					<h3>Principal Financial Group</h3>
+					<ul>
+						<li>Front-end architecture/development</li>
+						<li>Training</li>
+						<li>Infrastructure and app development</li>
+					</ul>
+					<h3>TelePharm</h3>
+					<ul>
+						<li>Nodejs</li>
+						<li>DevOps</li>
+						<li>Herding Yaks</li>
+					</ul>
+					<aside class="notes">
+						<h1>Don't forget to uncomment the TelePharm part.</h1>
+						<h3>Consulting work</h3>
+					</aside>
+				</section>
+				<section>
+					<h2>Quick Poll</h2>
+					<p>First one should be easy...</p>
+					<ul>
+						<li class="fragment">Who hates public speaking? <div class="fragment"><br /> I do!<br />But seriously, this will hopefully make sense later</div><br /></li>
+						<li class="fragment">Keep your hands raised... Who's been a developer for at least a year?</li>
+						<li class="fragment">10 years?</li>
+					</ul>
+				</section>
+				<section>
+					<h2>What this talk is</h2>
+					<ul>
+						<li></li>
+						<li></li>
+						<li></li>
+					</ul>
+				</section>
+				<section>
+					<div class="stewie-container-top">
+						<img class="stewie-img" src="images/stewie.jpg"/>
+						<div class="stewie-message stewie-message-top">
+							<p>"But Chuck, you work at a startup,</p>
+							<p> this can never work at my large Enterprise!?!?!"</p>
+						</div>
+					</div>
+					<p class="fragment clear-left">That was literally me a few years ago.</p>
+				</section>
+				
+				<section>
+					<h1>Thank you</h1>
+
+					<p><a href="https://twitter.com/crolek">twitter.com/crolek</a></p>
+					<p><a href="https://github.com/crolek">github.com/crolek</a></p>
+					<p><a href="https://chuckrolek.com">ChuckRolek.com</a></p>
+					<br /><br /><br />
+					<small>...</small><br />
+					<small>...</small>
+				</section>
+
+			</div>
+
+		</div>
+
+		<script src="lib/js/head.min.js"></script>
+		<script src="js/reveal.js"></script>
+
+		<script>
+
+			// Full list of configuration options available at:
+			// https://github.com/hakimel/reveal.js#configuration
+			Reveal.initialize({
+				controls: true,
+				progress: true,
+				history: true,
+				center: true,
+
+				transition: 'slide', // none/fade/slide/convex/concave/zoom
+
+				// Optional reveal.js plugins
+				dependencies: [
+					{ src: 'lib/js/classList.js', condition: function() { return !document.body.classList; } },
+					{ src: 'plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					{ src: 'plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					{ src: 'plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } },
+					{ src: 'plugin/zoom-js/zoom.js', async: true },
+					{ src: 'plugin/notes/notes.js', async: true }
+				]
+			});
+
+		</script>
+
+	</body>
+</html>
